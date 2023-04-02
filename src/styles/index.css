@@ -1,0 +1,14 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+
+
+body {
+  background-image: radial-gradient(circle at top right,#bfb3ff,rgba(191,179,255,0)),radial-gradient(circle at bottom left,#86acf9,rgba(134,172,249,0));
+  min-height: 100vh;
+}
+
+color: #fff;
+    text-decoration: none;

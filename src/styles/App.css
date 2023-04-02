@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button {
+  width: 200px;
+  height: 90px;
+  border-radius: 15px;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
