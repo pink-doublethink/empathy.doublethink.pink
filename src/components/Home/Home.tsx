@@ -12,6 +12,6 @@ const Home: React.FC = () =>  {
         </div>
       </div>
     )
-  }
+}
   
-  export default Home
+export default Home
