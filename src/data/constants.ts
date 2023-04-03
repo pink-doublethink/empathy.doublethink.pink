@@ -1,0 +1,1 @@
+export const QUIZ_DATA_KEY: string = "stepper-form-data";

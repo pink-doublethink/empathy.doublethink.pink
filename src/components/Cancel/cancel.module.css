@@ -12,6 +12,14 @@
     }
 }
 
+.buttons {
+    width: fit-content;
+    aspect-ratio: 1;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .title {
     font-size: clamp(2rem, 4vw + 1rem, 3rem);
     color: #4f3bf7;
@@ -23,21 +31,23 @@
 }
 
 .cancel {
+    min-width: 100vh;
     min-height: 100vh;
-    width: clamp(16rem, 90vw, 70rem);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .cancel__container {
-    width: clamp(400px, 60vw, 600px);
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .cancel__box {
-    width: clamp(125px, 20vw, 200px);
+    min-height: 750px;
+    min-width: 75vh;
     background: #6e83c3;
 }
