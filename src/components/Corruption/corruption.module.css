@@ -26,13 +26,12 @@
     background-color: #20c997;
 }
 
-.buttons {
+.corruption__buttons {
     width: fit-content;
-    /* padding: 60px; */
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: center;
+    gap: 3vh;
 }
 
 .title {
@@ -68,8 +67,10 @@
 }
 
 .corruption__btnBox {
-    margin-top: 5vh;
+    margin-top: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+

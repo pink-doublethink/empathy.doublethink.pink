@@ -5,7 +5,6 @@ import { useCallback, useState } from "react";
 import getData from "../../services/getData";
 import setData from "../../services/setData";
 import TextField from "../../shared/TextField";
-import Button from "@material-ui/core/Button";
 
 const Cancel: React.FC = ({ title } ) =>  {
     const history = useHistory();
@@ -50,10 +49,10 @@ const Cancel: React.FC = ({ title } ) =>  {
                             label="Solution Cancel Culture"
                             variant="outlined"
                             />
-                            <div className="buttons">
-                            <Button variant="contained" color="primary" type="submit">
-                                Next
-                            </Button>
+                            <div className={styles.cancel__btnBox}>
+                                <div className={styles.buttons}>
+                                    <button className={styles.button} onClick={onSubmit}> Далее </button>
+                                </div>
                             </div>
                         </form>
                         )}

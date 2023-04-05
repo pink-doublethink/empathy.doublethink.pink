@@ -25,10 +25,10 @@ const Review: React.FC = ({ title } ) =>  {
                             );
                         })}
                     </ul>
-                    <div className={styles.corruption__btnBox}>
-                                <div className={styles.buttons}>
+                    <div className={styles.review__btnBox}>
+                                <div className={styles.review__buttons}>
                                     <button className={styles.button} onClick={onBack}> Назад </button>
-                                    <Link to="/blog"><div className={`${styles.review__toBlogPage} ${styles.button}`}>К блогу</div></Link>
+                                    <Link to="/blog"><button className={`${styles.review__toBlogPage} ${styles.button}`}>К блогу</button></Link>
                                 </div>
                             </div>
                 </div>

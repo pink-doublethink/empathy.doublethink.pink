@@ -12,14 +12,27 @@
     }
 }
 
-.buttons {
+.button {
     width: fit-content;
-    aspect-ratio: 1;
-    padding: 60px;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.3em;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #20c997;
 }
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .title {
     font-size: clamp(2rem, 4vw + 1rem, 3rem);
     color: #4f3bf7;
@@ -50,4 +63,11 @@
     min-height: 750px;
     min-width: 75vh;
     background: #6e83c3;
+}
+
+.cancel__btnBox {
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

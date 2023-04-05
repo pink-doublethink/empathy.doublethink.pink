@@ -5,7 +5,6 @@ import { useCallback, useState } from "react";
 import getData from "../../services/getData";
 import setData from "../../services/setData";
 import TextField from "../../shared/TextField";
-import Button from "@material-ui/core/Button";
 
 const Cruelty: React.FC = ({ title } ) =>  {
     const history = useHistory();
@@ -55,7 +54,7 @@ const Cruelty: React.FC = ({ title } ) =>  {
                             label="The Solution to Cruelty"
                             variant="outlined"
                             />
-                            <div className={styles.corruption__btnBox}>
+                            <div className={styles.cruelty__btnBox}>
                                 <div className={styles.buttons}>
                                     <button className={styles.button} onClick={onBack}> Назад </button>
                                     <button className={styles.button} onClick={onSubmit}> Далее </button>

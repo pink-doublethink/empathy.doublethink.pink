@@ -55,7 +55,7 @@ const Corruption: React.FC = ({ title } ) =>  {
                             variant="outlined"
                             />
                             <div className={styles.corruption__btnBox}>
-                                <div className={styles.buttons}>
+                                <div className={styles.corruption__buttons}>
                                     <button className={styles.button} onClick={onBack}> Назад </button>
                                     <button className={styles.button} onClick={onSubmit}> Далее </button>
                                 </div>

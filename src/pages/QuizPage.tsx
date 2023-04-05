@@ -48,7 +48,7 @@ const QuizPage: React.FC = () => {
     <>
       <div>
         <h1>Stepper</h1>
-        <Stepper activeStep={state.activeStep}>
+        {/* <Stepper activeStep={state.activeStep}>
           {TABS.map(({ title }) => {
             return (
               <Step key={title}>
@@ -56,7 +56,7 @@ const QuizPage: React.FC = () => {
               </Step>
             );
           })}
-        </Stepper>
+        </Stepper> */}
         {tab && <tab.component />}
       </div>
     </>

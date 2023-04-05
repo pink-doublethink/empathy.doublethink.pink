@@ -5,7 +5,6 @@ import { useCallback, useState } from "react";
 import getData from "../../services/getData";
 import setData from "../../services/setData";
 import TextField from "../../shared/TextField";
-import Button from "@material-ui/core/Button";
 
 const Indifference: React.FC = ({ title } ) =>  {
     const history = useHistory();
@@ -55,8 +54,8 @@ const Indifference: React.FC = ({ title } ) =>  {
                             label="Solution  of Indifference"
                             variant="outlined"
                             />
-                            <div className={styles.corruption__btnBox}>
-                                <div className={styles.buttons}>
+                            <div className={styles.indifference__btnBox}>
+                                <div className={styles.indifference__buttons}>
                                     <button className={styles.button} onClick={onBack}> Назад </button>
                                     <button className={styles.button} onClick={onSubmit}> Далее </button>
                                 </div>

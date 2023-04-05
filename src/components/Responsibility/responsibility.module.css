@@ -26,12 +26,12 @@
     background-color: #20c997;
 }
 
-.buttons {
+.responsibility__buttons {
     width: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 3vh;
 }
 
 .title {
@@ -66,8 +66,8 @@
     background: #6e83c3;
 }
 
-.corruption__btnBox {
-    margin-top: 5vh;
+.responsibility__btnBox {
+    margin-top: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;

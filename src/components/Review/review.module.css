@@ -34,12 +34,12 @@
     background-color: #20c997;
 }
 
-.buttons {
+.review__buttons {
     width: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 3vh;
 }
 
 .title {
@@ -106,8 +106,8 @@
     background-color: #ae3ec9;
 }
 
-.corruption__btnBox {
-    margin-top: 5vh;
+.review__btnBox {
+    margin-top: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;

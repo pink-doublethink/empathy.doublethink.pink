@@ -1,6 +1,13 @@
+import {Hero, DealingWithObjections, ContentArticles, Recomendations} from "../components/"
+
 const BlogPage: React.FC = () => {
     return (
-      <div>BlogPage</div>
+      <>
+        <Hero />
+        <DealingWithObjections />
+        <ContentArticles />
+        <Recomendations />
+      </>
     )
   }
   

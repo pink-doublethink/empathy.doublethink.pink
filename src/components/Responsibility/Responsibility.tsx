@@ -5,7 +5,6 @@ import { useCallback, useState } from "react";
 import getData from "../../services/getData";
 import setData from "../../services/setData";
 import TextField from "../../shared/TextField";
-import Button from "@material-ui/core/Button";
 
 const Responsibility: React.FC = ({ title } ) =>  {
     const history = useHistory();
@@ -55,8 +54,8 @@ const Responsibility: React.FC = ({ title } ) =>  {
                             label="The Solution to Responsibility"
                             variant="outlined"
                             />
-                            <div className={styles.corruption__btnBox}>
-                                <div className={styles.buttons}>
+                            <div className={styles.responsibility__btnBox}>
+                                <div className={styles.responsibility__buttons}>
                                     <button className={styles.button} onClick={onBack}> Назад </button>
                                     <button className={styles.button} onClick={onSubmit}> Далее </button>
                                 </div>
