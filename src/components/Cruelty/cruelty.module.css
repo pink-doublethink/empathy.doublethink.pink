@@ -50,6 +50,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('./E3.png') ;
+    background-repeat: no-repeat;
 }
 
 .cruelty__container {
@@ -63,7 +65,6 @@
 .cruelty__box {
     min-height: 750px;
     min-width: 75vh;
-    background: #6e83c3;
 }
 
 .cruelty__btnBox {

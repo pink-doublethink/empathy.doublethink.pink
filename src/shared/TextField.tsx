@@ -1,4 +1,4 @@
-import MaterialTextField from "@material-ui/core/TextField";
+import MaterialTextField from "@mui/material/TextField";
 
 const TextField: React.FC = ({ input, className, label, variant }) => {
   return (

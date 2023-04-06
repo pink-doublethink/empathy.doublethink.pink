@@ -81,7 +81,6 @@
 .review__box {
     min-height: 750px;
     min-width: 75vh;
-    background: #6e83c3;
     display: flex;
     align-items: center;
     justify-content: center;

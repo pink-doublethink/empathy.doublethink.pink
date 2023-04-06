@@ -50,6 +50,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('./E5.png') ;
+    background-repeat: no-repeat;
 }
 
 .responsibility__container {
@@ -63,7 +65,6 @@
 .responsibility__box {
     min-height: 750px;
     min-width: 75vh;
-    background: #6e83c3;
 }
 
 .responsibility__btnBox {

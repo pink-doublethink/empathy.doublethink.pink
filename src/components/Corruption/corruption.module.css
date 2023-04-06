@@ -50,6 +50,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('./E2.png') ;
+    background-repeat: no-repeat;
 }
 
 .corruption__container {
@@ -63,7 +65,6 @@
 .corruption__box {
     min-height: 750px;
     min-width: 75vh;
-    background: #6e83c3;
 }
 
 .corruption__btnBox {

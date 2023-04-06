@@ -2,9 +2,10 @@ import { useEffect } from "react";
 import {Cancel, Corruption, Cruelty, Indifference, Responsibility, Review} from "../components/"
 import { useLocation } from "react-router-dom";
 import clearData from "../services/clearData";
-import Stepper from "@material-ui/core/Stepper";
-import Step from "@material-ui/core/Step";
-import StepLabel from "@material-ui/core/StepLabel";
+import {Helmet} from "react-helmet";
+import Stepper from "@mui/material/Stepper";
+import Step from "@mui/material/Step";
+import StepLabel from "@mui/material/StepLabel";
 
 const TABS = [
   {
@@ -46,9 +47,10 @@ const QuizPage: React.FC = () => {
 
   return (
     <>
-      <div>
+    { <tab.component />}
+      {/* <div>
         <h1>Stepper</h1>
-        {/* <Stepper activeStep={state.activeStep}>
+        <Stepper activeStep={state.activeStep}>
           {TABS.map(({ title }) => {
             return (
               <Step key={title}>
@@ -56,9 +58,9 @@ const QuizPage: React.FC = () => {
               </Step>
             );
           })}
-        </Stepper> */}
+        </Stepper>
         {tab && <tab.component />}
-      </div>
+      </div> */}
     </>
   )
 }

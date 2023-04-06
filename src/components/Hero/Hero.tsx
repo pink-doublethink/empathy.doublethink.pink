@@ -1,5 +1,4 @@
 import styles from "./hero.module.css"
-import { Link } from "react-router-dom"
 
 const Hero: React.FC = () =>  {
     return (

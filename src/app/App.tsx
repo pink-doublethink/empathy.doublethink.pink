@@ -4,13 +4,13 @@ import '../styles/App.css'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 // import Link from 'react-router-dom';
 // <Link to="/quiz">Пройти опрос</Link>
-import HomePage from '../pages/HomePage';
-import QuizPage from '../pages/QuizPage';
-import BlogPage from '../pages/BlogPage';
+// import HomePage from '../pages/HomePage';
+// import QuizPage from '../pages/QuizPage';
+// import BlogPage from '../pages/BlogPage';
 
-// const HomePage: React.FC = lazy(() => import('../pages/HomePage'));
-// const QuizPage: React.FC = lazy(() => import('../pages/QuizPage'));
-// const BlogPage: React.FC = lazy(() => import('../pages/BlogPage'));
+const HomePage: React.FC = lazy(() => import('../pages/HomePage'));
+const QuizPage: React.FC = lazy(() => import('../pages/QuizPage'));
+const BlogPage: React.FC = lazy(() => import('../pages/BlogPage'));
 
 function App() {
 

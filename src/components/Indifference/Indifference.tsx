@@ -29,6 +29,7 @@ const Indifference: React.FC = ({ title } ) =>  {
       }, [history]);
 
     return (
+      <>
         <div className={styles.indifference}>
             <div className={styles.indifference__container}>
                 <div className={styles.indifference__box}>
@@ -66,6 +67,7 @@ const Indifference: React.FC = ({ title } ) =>  {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
