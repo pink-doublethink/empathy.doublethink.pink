@@ -1,5 +1,7 @@
 import Home from "./Home/Home";
 import Hero from "./Hero/Hero";
+import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 import DealingWithObjections from "./DealingWithObjections/DealingWithObjections";
 import ContentArticles from "./ContentArticles/ContentArticles";
 import Recomendations from "./Recomendations/Recomendations";
@@ -11,4 +13,4 @@ import Indifference from "./Indifference/Indifference";
 import Responsibility from "./Responsibility/Responsibility";
 import Review from "./Review/Review";
 
-export {Home, Cancel, Corruption, Cruelty, Indifference, Responsibility, Review, Hero, DealingWithObjections, ContentArticles, Recomendations};
+export {Home, Cancel, Header, Footer, Corruption, Cruelty, Indifference, Responsibility, Review, Hero, DealingWithObjections, ContentArticles, Recomendations};

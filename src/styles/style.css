@@ -1,0 +1,238 @@
+/* ==================== Import & Derectiv ==================== */
+@import url('./open-props.css');
+@import url('./masks.css');
+@import url('../assets/fonts/fonts.css');
+/* ================== Variables ================= */
+:root {
+    --color-blacker: hsl(270, 10%, 5%);
+    --color-blacker-hsl: 270, 10%, 5%;
+    --color-black: hsl(270, 10%, 10%);
+    --color-black-hsl: 270, 10%, 10%;
+    --color-grey-00: hsl(270, 10%, 12.5%); /* dark mode */
+    --color-grey-01: hsl(270, 10%, 15%);
+    --color-grey-02: hsl(270, 10%, 17.5%);
+    --color-grey-03: hsl(270, 10%, 20%);
+    --color-grey-04: hsl(270, 8%, 35%); /* text */
+    --color-grey-05: hsl(270, 8%, 50%);
+    --color-grey-06: hsl(270, 13%, 65%);
+    --color-grey-07: hsl(270, 10%, 72.5%); /* light mode */
+    --color-grey-08: hsl(270, 10%, 75%);
+    --color-grey-09: hsl(270, 10%, 77.5%);
+    --color-grey-10: hsl(270, 10%, 80%);
+    
+    --color-hot-pink: hsl(330, 85%, 47.2%);
+    
+    --color-red-pink: hsl(340, 85%, 48.3%);
+  
+    --color-shadowy-gold: hsl(44, 100%, 29.3%);
+    --color-magic-gold: hsl(37, 100%, 50%);
+    
+    --color-green: hsla(80, 70%, 28.5%, 0.95);
+    --color-green-hsl: 80, 70%, 28.5%;
+  
+    --color-blue: hsl(180, 100%, 26%);
+    
+    --color-teal: hsl(165, 100%, 26%);
+    
+    --color-cyan: hsla(175, 100%, 50%);
+    --color-cyan-hsl: 175, 100%, 50%;
+    --color-cyan-desat: hsla(175, 45%, 50%);
+    --color-cyan-desat-hsl: 175, 45%, 50%;
+    
+    --color-deep-indigo: hsl(250, 80%, 3.5%);
+    --color-deep-indigo-hsl: 250, 80%, 3.5%;
+  
+    --color-deep-purple: hsl(270, 100%, 10%);
+    --color-deep-purple-hsl: 270, 100%, 10%;
+    --color-purple-1: hsl(270, 60%, 40%);
+    --color-purple-2: hsl(270, 60%, 45%);
+    --color-purple-3: hsl(270, 65%, 58.8%);
+    --color-purple-4: hsl(270, 100%, 61.5%);
+    --color-pale-purple: hsl(270, 100%, 70%);
+    --color-pale-purple-hsl: 270, 100%, 70%;
+    --text-mark: rgba(136, 192, 208, 0.3);
+    --color-bold: hsl(12, 65%, 62%);
+    --color-italic: hsl(346, 64%, 57%); 
+}
+/* ================== Reset ================= */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+
+img {
+    vertical-align: none;
+}
+
+
+h1,
+h2, 
+h3,
+h4,
+h5, 
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+/* ================== General ================= */
+html,
+body {
+    width: 100%;
+    font-family: 'Spectral';
+    letter-spacing: -0.5px;
+    word-spacing: -0.04rem;
+    word-break: break-word;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+    -webkit-hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 6 3 3;
+    -moz-hyphenate-limit-lines: 2;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 3;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;
+    hyphens: auto;
+    /* hyphenate-limit-chars: 6 3 3;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%; */
+}
+/* ================== Reusable ================= */
+.h1 {
+    font-size: calc(1.625rem + 1.6vw);
+    font-weight: 700;
+    line-height: 2.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+}
+
+.h2 {
+    font-size: calc(1.5rem + .25vw);
+    font-weight: 600;
+    margin-top: 1.5555556em;
+    margin-bottom: 0.8888889em;
+    line-height: 1.1111111;
+}
+    
+.h3 {
+    font-size: calc(1.125rem + .25vw);
+    font-weight: 600;
+    margin-top: 1.6em;
+    margin-bottom: 0.6666667em;
+    line-height: 1.3333333;
+}
+
+.p {
+    font-size: calc(.35842vw + .95296em);
+    line-height: calc(1.3em + .2vw);
+    font-weight: 500;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    /* включать по необходимости
+    hyphens: auto; */
+}
+
+@media(max-width:59.375em) {
+    .h2 {
+        margin-top: 1.8666667em;
+        margin-bottom: 1.0666667em;
+        line-height: 1.3333333;
+    }
+    
+    .h3 {
+        margin-top: 1.6666667em;
+        margin-bottom: 0.6666667em;
+        line-height: 1.5;
+    }
+}
+
+@media(max-width:46.875em) {
+    .p {
+        margin-top: 1.3333333em;
+        margin-bottom: 1.3333333em;
+    }
+}
+
+
+.h1-shadow {
+    text-shadow: 1px 1px rgba(0,0,0,0.05),
+    2px 2px rgba(0,0,0,0.05),
+    3px 3px rgba(0,0,0,0.05),
+    4px 4px rgba(0,0,0,0.05),
+    5px 5px rgba(0,0,0,0.05),
+    6px 6px rgba(0,0,0,0.05),
+    7px 7px rgba(0,0,0,0.05)
+}
+
+.p-shadow {
+    text-shadow: 0 2px 2px rgb(0 0 0 / 50%),
+    0 3px 3px rgb(0 0 0 / 50%);
+}
+
+/* ================== Something ================= */
+
+
+
+
+/* ================== Media Queries ================= */
+/* Extra Large Devices only ~ xll = 1936 px */
+@media(min-width:121em) {
+    
+}
+
+/* Large Devices only ~ xl = 1440 px */
+@media(min-width:90em) {
+    
+}
+
+/* Large Screen ~ lg = 992 px */
+@media(min-width:62em) {
+    
+}
+
+/* Small Screen ~ sm = 576px  */
+ @media(max-width:36em) {
+
+}
+
+/* Extra Small devices ~ xs = 360px */
+@media(max-width:22.5em) {
+    
+}
