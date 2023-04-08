@@ -47,7 +47,7 @@ body {
     color: #fff;
   word-spacing: -0.04rem;
     background-image: radial-gradient(circle at top right,#bfb3ff,rgba(191,179,255,0)),radial-gradient(circle at bottom left,#86acf9,rgba(134,172,249,0));
-}
+} 
 
 p {
   letter-spacing: -0.5px;
