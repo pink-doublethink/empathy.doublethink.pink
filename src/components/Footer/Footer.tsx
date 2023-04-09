@@ -38,7 +38,7 @@ const Footer: React.FC = () =>  {
             <div className={styles.footer__copyright}>
                 <div className={styles.footer__container}>
                     <div className={styles.footer__info}>
-                       <span className={styles.footer__span}></span> asdasdad & 2023 <Link to="/" className={styles.footer__a}>НАйм</Link>
+                       <span className={styles.footer__span}></span> (C) Copyright 2023 - All Rights Reserved by <Link to="/" className={styles.footer__a}>Alexei Ovsyannikov</Link>
                     </div>
                 </div>
             </div>
