@@ -1,0 +1,33 @@
+.gallary {
+    user-select: none;
+    max-width: 900px;
+    max-height: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.gallary__container {
+    position: relative;
+    margin-bottom: 5px;  
+}
+
+.gallary__screen {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, 0);
+}
+
+.gallary__navigating {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, 0);
+}
+
+.gallary__preview {
+    margin: 0 auto;
+}

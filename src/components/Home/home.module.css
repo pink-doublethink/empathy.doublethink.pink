@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+}
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__container {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__callToAction {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8em;
+}
+
+.home__toBlogPage {
+    background-color: #ae3ec9;
+}
+
+.home__toQuizPage {
+    background-color: #20c997;
+}
+
+.button {
+    width: 200px;
+    height: 90px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}

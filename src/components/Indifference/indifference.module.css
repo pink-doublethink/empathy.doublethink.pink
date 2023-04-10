@@ -1,0 +1,82 @@
+@supports (color: oklch()) {
+    .title {
+        color: oklch(51.32% 0.261 276.88);
+    }
+
+    .text {
+        color: oklch(19.33% 0.1 285.35);
+    }
+
+    .indifference__box {
+        background:  oklch(62% 0.1 269.47);
+    }
+}
+
+.button {
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #20c997;
+}
+
+.indifference__buttons {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3vh;
+}
+
+.title {
+    font-size: clamp(2rem, 4vw + 1rem, 3rem);
+    color: #4f3bf7;
+}
+
+.text {
+    font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 1.5rem);
+    color: #14043e;
+}
+
+.indifference {
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./E4.JPG') ;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+
+.indifference__co {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.indifference__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.indifference__box {
+    min-height: 750px;
+    min-width: 75vh;
+}
+
+.indifference__btnBox {
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

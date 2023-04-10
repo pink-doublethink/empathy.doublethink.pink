@@ -1,0 +1,131 @@
+.footer {
+    height: 380px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+.footer__links {
+    background-color: #887;
+    height: 320px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+}
+ 
+.footer__container {
+   grid-column: 4/28;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ .footer__logo {
+     width: 100%;
+     height: 130px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+ }
+
+ .footer__div {
+    width: 70px;
+    height: 70px;
+}
+
+.footer__logotype {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+ .footer__nav {
+     width: 100%;
+     height: 180px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 1.3em;
+ }
+
+ .footer__navItem {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .footer__box {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .footer__ul {
+    width: fit-content;
+    height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 1.5em;
+ }
+
+ .footer__icon {
+    width: fit-content;
+    height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: .9em;
+     
+ }
+ 
+
+ .footer__li:hover  .footer__a {
+   color: hsla(175, 45%, 50%);
+ }
+ 
+ .footer__a {
+     color: #fff;
+     font-size: 1.24em;
+     font-weight: 500;
+     transition: 0.55s;
+ }
+
+ .footer__info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .91em;
+ }
+
+ .footer__copyright {
+    background-color: #323;
+    height: 60px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+ }
+
+ .footer__span {
+    height: 30px;
+    min-width: fit-content;
+ }
+
+ .footer__svg {
+    width: 24px;
+    height: 24px;
+ }
+
+ /* .footer__svgContent {
+    max-width: 100%;
+    height: 100%;
+    object-fit:contain;
+ } */

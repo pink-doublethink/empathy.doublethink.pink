@@ -1,0 +1,133 @@
+.block {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    background: #999;
+}
+
+
+
+.block__box {
+    background: #222;
+    min-height: 100%;
+    min-width: 100%;
+    grid-column: 4/28;
+    display: grid;
+    row-gap: 8vh;
+    column-gap: 2vh;
+    grid-template: repeat(3, 1fr) / repeat(3, 2fr);
+    margin: 0 auto;
+}
+
+.block__boxCard {
+    height: 410px;
+    width: 440px;
+    background: #fff;
+    color: #999;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.block__cardTop {
+    width: 100%;
+    height: 46%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block__cardBottom {
+    width: 100%;
+    height: 54%;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+}
+
+.block__imgBox {
+    width: 400px;
+    height: 250px;
+}
+
+.block__img {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.button {
+    width: 200px;
+    height: 90px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.block__cardTitle {
+    grid-column: 6/26;
+    width: 100%;
+    background: #999;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__detail {
+    grid-column: 6/26;
+    margin-top: .6em;
+    width: 100%;
+    background: #777;
+    display: flex;
+    gap: 20px;
+}
+
+.block__date {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__detailTag {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    display: flex;
+}
+
+.block__tagBox {
+    background-color: transparent;
+    border: solid red 1px;
+    height: 3vh;
+    width: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__tagContent {
+    padding: 2px;
+}
+
+.block__cardText {
+    grid-column: 6/26;
+    margin-top: .6em;
+    width: 100%;
+    background: #555;
+    color: red;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
