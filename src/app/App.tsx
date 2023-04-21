@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import QuizPage from '../pages/QuizPage';
 import BlogPage from '../pages/BlogPage';
+import SinglePostPage from '../pages/SinglePostPage';
 
 // const HomePage: React.FC = lazy(() => import('../pages/HomePage'));
 // const QuizPage = lazy(() => import('../pages/QuizPage'));
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route exact path="/blog">
             <BlogPage/>
+          </Route>
+          <Route exact path="/blog/post-1">
+            <SinglePostPage/>
           </Route>
           <Route exact path="/quiz">
             <QuizPage />

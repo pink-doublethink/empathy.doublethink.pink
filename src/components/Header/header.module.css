@@ -5,6 +5,7 @@
    width: 100%;
    left: 0;
    background-color: hsl(270, 60%, 40%);
+   z-index: 1;
 }
 
 .block__container {

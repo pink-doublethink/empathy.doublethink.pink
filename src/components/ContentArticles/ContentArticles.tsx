@@ -1,4 +1,5 @@
 import styles from "./contentArticles.module.css"
+import { Link } from "react-router-dom"
 
 const ContentArticles: React.FC = () =>  {
     return (
@@ -17,11 +18,11 @@ const ContentArticles: React.FC = () =>  {
           <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
                 <div className={styles.block__imgBox}>
-                  <img src="./Ex1.jpg" alt="" className={styles.block__img} />
+                <Link to="/blog/post-1"><img src="./Ex1.jpg" alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>Expressa Vero In Iis Aetatibus, Quae Iam Confirmatae Sunt</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1">Expressa Vero In Iis Aetatibus, Quae Iam Confirmatae Sunt</Link></div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>
@@ -43,11 +44,11 @@ const ContentArticles: React.FC = () =>  {
             <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
                 <div className={styles.block__imgBox}>
-                  <img src="./Ex4.jpg" alt="" className={styles.block__img} />
+                  <Link to="/blog/post-1"><img src="./Ex4.jpg" alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>Tu Negas Fortem Esse Posse, Qui Dolorem Malum Putet</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1">Tu Negas Fortem Esse Posse, Qui Dolorem Malum Putet</Link></div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>
@@ -69,11 +70,11 @@ const ContentArticles: React.FC = () =>  {
             <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
                 <div className={styles.block__imgBox}>
-                  <img src="./Ex3.jpg" alt="" className={styles.block__img} />
+                  <Link to="/blog/post-1"><img src="./Ex3.jpg" alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>Igitur Neque Beatus Neque Sapientium Non Beatus</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1">Igitur Neque Beatus Neque Sapientium Non Beatus</Link></div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>
@@ -95,11 +96,11 @@ const ContentArticles: React.FC = () =>  {
             <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
                 <div className={styles.block__imgBox}>
-                  <img src="./Ex2.jpg" alt="" className={styles.block__img} />
+                  <Link to="/blog/post-1"><img src="./Ex2.jpg" alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>Как потушить пожар</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1">Как потушить пожар</Link></div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>

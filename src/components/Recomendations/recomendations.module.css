@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows: 14% 86%;
-    background-color: hsl(44, 100%, 29.3%);
+    background-color: hsla(175, 45%, 50%);
     margin-top: 6em;
 }
 

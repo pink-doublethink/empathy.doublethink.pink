@@ -73,7 +73,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    color: red;
+    color: hsl(37, 100%, 50%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +92,7 @@
     display: flex;
     height: 100%;
     width: 40%;
-    color: red;
+    color: hsl(37, 100%, 50%);
     align-items: center;
     justify-content: center;
 }
@@ -101,7 +101,7 @@
     display: flex;
     height: 100%;
     width: 40%;
-    color: red;
+    color: hsl(37, 100%, 50%);
     align-items: center;
     justify-content: center;
     gap: 9px;
@@ -110,7 +110,7 @@
 
 .block__tagBox {
     background-color: transparent;
-    border: solid red 1px;
+    border: solid hsl(346, 64%, 57%) 1px;
     height: 3vh;
     width: 10vh;
     display: flex;
@@ -127,7 +127,7 @@
     margin-top: .6em;
     width: 100%;
     background: #555;
-    color: red;
+    color: hsl(37, 100%, 50%);
     font-size: 1.1rem;
     font-weight: 500;
 }

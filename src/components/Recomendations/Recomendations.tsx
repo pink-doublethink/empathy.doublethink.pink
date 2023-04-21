@@ -14,7 +14,20 @@ const Recomendations: React.FC = () =>  {
             </div>
         </div>
           <div className={styles.block__box}>
-        
+            <div className="block__boxs">
+                <div className="block__top">
+                <div className="block__topCont">
+                  <div className="block__topCont">
+
+                  </div>
+                </div>
+              </div>
+              <div className="block__bottom">
+                <div className="block__bottomCont">
+                  
+                </div>
+                </div>
+              </div>
           </div>
       </div>
     )

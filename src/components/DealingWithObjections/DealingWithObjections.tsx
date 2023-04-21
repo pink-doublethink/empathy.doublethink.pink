@@ -1,5 +1,5 @@
 import styles from "./dealingWithObjections.module.css"
-
+import { Link } from "react-router-dom"
 
 const DealingWithObjections: React.FC = () =>  {
     return (
@@ -8,11 +8,11 @@ const DealingWithObjections: React.FC = () =>  {
             <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
                 <div className={styles.block__imgBox}>
-                  <img src="./Ex1.jpg" alt="" className={styles.block__img} />
+                  <Link to="/blog/post-1"><img src="./Ex1.jpg" alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>Как потушить пожар</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1">Как потушить пожар</Link></div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>
@@ -34,11 +34,11 @@ const DealingWithObjections: React.FC = () =>  {
             <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
                 <div className={styles.block__imgBox}>
-                    <img src='Ex2.jpg' alt="" className={styles.block__img} />
+                    <Link to="/blog/post-1"><img src='Ex2.jpg' alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>ЖИЛИ БЫЛИ СТАРИК СО СТАРУХОЙ</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1">ЖИЛИ БЫЛИ СТАРИК СО СТАРУХОЙ</Link></div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>
@@ -60,11 +60,11 @@ const DealingWithObjections: React.FC = () =>  {
             <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
               <div className={styles.block__imgBox}>
-                    <img src='Ex3.jpg' alt="" className={styles.block__img} />
+                    <Link to="/blog/post-1"><img src='Ex3.jpg' alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>Если бы да кабы в рту росли грибы</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1">Если бы да кабы в рту росли грибы</Link></div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>
@@ -86,11 +86,11 @@ const DealingWithObjections: React.FC = () =>  {
             <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
               <div className={styles.block__imgBox}>
-                    <img src='Ex4.jpg' alt="" className={styles.block__img} />
+                    <Link to="/blog/post-1"><img src='Ex4.jpg' alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>ОЧЕНь дилнный пример текста только ради проверки формы</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1">ОЧЕНь дилнный пример текста только ради проверки формы</Link></div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>
@@ -112,11 +112,11 @@ const DealingWithObjections: React.FC = () =>  {
             <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
               <div className={styles.block__imgBox}>
-                    <img src='Ex3.jpg' alt="" className={styles.block__img} />
+                    <Link to="/blog/post-1"><img src='Ex3.jpg' alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>Cuius Fuit, Mihi Videtur Inanitas Ista Verborum</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1"></Link>Cuius Fuit, Mihi Videtur Inanitas Ista Verborum</div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>
@@ -138,11 +138,11 @@ const DealingWithObjections: React.FC = () =>  {
             <div className={styles.block__boxCard}>
               <div className={styles.block__cardTop}>
               <div className={styles.block__imgBox}>
-                    <img src='Ex6.jpg' alt="" className={styles.block__img} />
+                    <Link to="/blog/post-1"><img src='Ex6.jpg' alt="" className={styles.block__img} /></Link>
                 </div>
               </div>
               <div className={styles.block__cardBottom}>
-                <div className={styles.block__cardTitle}>Едва ли спасут летящего на смерть</div>
+                <div className={styles.block__cardTitle}><Link to="/blog/post-1">Едва ли спасут летящего на смерть</Link></div>
                 <div className={styles.block__detail}>
                   <div className={styles.block__date}>August 31, 2017</div>
                   <div className={styles.block__detailTag}>
