@@ -8,6 +8,9 @@ import HomePage from '../pages/HomePage';
 import QuizPage from '../pages/QuizPage';
 import BlogPage from '../pages/BlogPage';
 import SinglePostPage from '../pages/SinglePostPage';
+import Post from '../pages/Post';
+
+
 
 // const HomePage: React.FC = lazy(() => import('../pages/HomePage'));
 // const QuizPage = lazy(() => import('../pages/QuizPage'));
@@ -25,8 +28,8 @@ function App() {
           <Route exact path="/blog">
             <BlogPage/>
           </Route>
-          <Route exact path="/blog/post-1">
-            <SinglePostPage/>
+          <Route exact path="/blog/:title">
+            <Post />
           </Route>
           <Route exact path="/quiz">
             <QuizPage />
