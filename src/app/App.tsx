@@ -9,6 +9,8 @@ import QuizPage from '../pages/QuizPage';
 import BlogPage from '../pages/BlogPage';
 import SinglePostPage from '../pages/SinglePostPage';
 import Post from '../pages/Post';
+import ContactPage from '../pages/ContactPage';
+import LiteraturePage from '../pages/LiteraturePage';
 
 
 
@@ -24,6 +26,12 @@ function App() {
         <Switch>
           <Route exact path="/">
             <HomePage />
+          </Route>
+          <Route exact path="/contact">
+            <ContactPage/>
+          </Route>
+          <Route exact path="/literature">
+            <LiteraturePage />
           </Route>
           <Route exact path="/blog">
             <BlogPage/>

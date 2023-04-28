@@ -13,5 +13,8 @@ import Cruelty from "./Cruelty/Cruelty";
 import Indifference from "./Indifference/Indifference";
 import Responsibility from "./Responsibility/Responsibility";
 import Review from "./Review/Review";
+import CardSwiper from "./CardSwiper/CardSwiper";
 
-export {Home, Cancel, Header, Footer, Gallery, Corruption, Cruelty, Indifference, Responsibility, Review, Hero, DealingWithObjections, ContentArticles, Recomendations};
+
+
+export {Home, CardSwiper,Cancel, Header, Footer, Gallery, Corruption, Cruelty, Indifference, Responsibility, Review, Hero, DealingWithObjections, ContentArticles, Recomendations};

@@ -1,7 +1,37 @@
-import {Hero, Header, Footer, Gallery, DealingWithObjections, ContentArticles, Recomendations} from "../components/"
+import {Hero, Header, Footer, CardSwiper, DealingWithObjections, ContentArticles, Recomendations} from "../components/"
 import {Helmet} from "react-helmet";
 
+
 const BlogPage: React.FC = () => {
+
+  
+
+  const cardGroups: CardGroup[] = [
+    {
+      index: 0,
+      status: "active",
+      cards: [
+        { type: "little" },
+        { type: "big" },
+        { type: "little" },
+        { type: "big" },
+        { type: "little" },
+        { type: "big" },
+        { type: "little" },
+        { type: "big" },
+      ],
+    },
+    // define other card groups here
+  ];
+
+  const handleLoveClick = () => {
+    console.log("Love button clicked");
+  };
+
+  const handleHateClick = () => {
+    console.log("Hate button clicked");
+  };
+
     return (
       <>
         <Helmet>
@@ -27,6 +57,11 @@ const BlogPage: React.FC = () => {
         <DealingWithObjections />
         <ContentArticles />
         <Recomendations />
+        <CardSwiper
+        cardGroups={cardGroups}
+        onLoveClick={handleLoveClick}
+        onHateClick={handleHateClick}
+      />
         <Footer />
       </>
     )

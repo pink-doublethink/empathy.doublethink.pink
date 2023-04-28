@@ -10,10 +10,10 @@ const Header: React.FC = () =>  {
           </div>
           <nav className={styles.block__nav}>
             <ul className={styles.block__ul}>
-                <li className={styles.block__li}><Link to="/" className={styles.block__a}>Туда</Link></li>
+                <li className={styles.block__li}><Link to="/literature" className={styles.block__a}>Туда</Link></li>
                 <li className={styles.block__li}><Link to="/" className={styles.block__a}>Сюда</Link></li>
                 <li className={styles.block__li}><Link to="/" className={styles.block__a}>Не туда</Link></li>
-                <li className={styles.block__li}><Link to="/" className={styles.block__a}>Контакты</Link></li>
+                <li className={styles.block__li}><Link to="/contact" className={styles.block__a}>Контакты</Link></li>
                 <li className={styles.block__li}><Link to="/" className={styles.block__a}>Продажи</Link></li>
                 <li className={styles.block__li}><Link to="/" className={styles.block__a}>НАйм</Link></li>
             </ul>

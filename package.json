@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "format": "prettier \"src/**/*.{js,jsx,ts,tsx,css,scss}\" --write",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -28,10 +29,12 @@
     "@types/react-helmet": "^6.1.6",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-legacy": "^4.0.3",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "eslint": "^8.37.0",
     "eslint-config-airbnb": "^19.0.4",
     "prettier": "^2.8.7",
+    "rollup-plugin-filesize": "^10.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
   }
